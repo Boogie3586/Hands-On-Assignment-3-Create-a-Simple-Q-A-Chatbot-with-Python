@@ -14,7 +14,7 @@ This project demonstrates a terminal-based chatbot implemented in Python using D
 1. Clone this repository:
 
 ```bash
-git clone (https://github.com/Boogie3586/Hands-On-Assignment-3-Create-a-Simple-Q-A-Chatbot-with-Python/blob/main/README.md)
+git clone (https://github.com/Boogie3586/Hands-On-Assignment-3-Create-a-Simple-Q-A-Chatbot-with-Python/blob/main/README.md)](https://github.com/Boogie3586/Hands-On-Assignment-3-Create-a-Simple-Q-A-Chatbot-with-Python/tree/main)
 cd chatbot_project
 ```
 2. Create and activate a virtual environment:
