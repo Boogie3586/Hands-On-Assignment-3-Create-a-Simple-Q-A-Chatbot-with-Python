@@ -17,47 +17,39 @@ This project demonstrates a terminal-based chatbot implemented in Python using D
 git clone <your-repo-url>
 cd chatbot_project
 Create and activate a virtual environment:
-
-bash
-Copy code
+```
+```bash
 python -m venv venv
 venv\Scripts\activate  # Windows
 # or source venv/bin/activate  # Linux/macOS
 Install the required packages:
-
-bash
-Copy code
+```
+```bash
 pip install -r requirements.txt
 Download the spaCy English model:
-
-bash
-Copy code
+```
+```bash
 python -m spacy download en_core_web_sm
 Usage
 Apply migrations:
-
-bash
-Copy code
+```
+```bash
 python manage.py migrate
 Run the chatbot:
-
-bash
-Copy code
+```
+```bash
 python manage.py chat_bot
 Chat with the bot in the terminal. Type exit to quit.
-
-Example Conversation
-vbnet
-Copy code
+```
+```Example Conversation
 user: Good morning!
 bot: I am doing very well, thank you for asking.
 user: What's your name?
 bot: My name is TerminalBot.
 user: exit
 bot: Goodbye!
-Project Structure
-bash
-Copy code
+```
+```Project Structure
 chatbot_project/
 ├── chatbot/                    # Django app
 │   ├── management/
@@ -78,3 +70,4 @@ chatbot_project/
 ├── manage.py
 ├── requirements.txt
 └── README.md
+```
